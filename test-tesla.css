@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+    color: blueviolet;
+}
+
+header > .home{
+    flex: 50%;
+    padding: 5px 20px 0px 20px;
+    text-align: center;
+    background-color: aquamarine; 
+}
+
+.navbar{
+    background-color: aquamarine; 
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding: 5px 20px 10px 20px;
+}
+
+a{
+    color: blueviolet;
+    text-decoration: none;
+    padding: 0px 10px 0 10px;
+}
+
+footer{
+    background-color: lightgray;
+    color: rgba(15, 15, 15, 0.918);
+    padding: 5px 20px 10px 20px;
+    border-top: 2px solid black;
+}
+
+.cuerpo{
+    padding: 5px 50px 20px 50px;
+    background-color: lightgray;
+}
+
+.hero{
+    text-align: center;
+    max-width: 1400px;
+    padding: 10px 50px 10px 50px;
+    background-color: lightgray;
+}
+
+.padre{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    max-width: 1400px;
+    padding: 10px 50px 10px 50px;
+    background-color: lightgray;
+}
+
+.hijo{
+    padding: 20px;
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+
+.img{
+    width: 100%;
+    height: fit-content;
+}
+
+.aetp{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    max-width: 1400px;
+    padding: 10px 50px 10px 50px;
+    background-color: lightgray;
+}
+
+.aeth{
+    padding: 20px;
+    border: 1px solid black;
+    background-color: aquamarine;  
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: lightgray;
+    max-width: 1400px;
+    padding: 10px 50px 10px 50px;
+}
+
+.contenedor > div{
+    flex: 50%;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: aquamarine; 
+}
